@@ -65,6 +65,7 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "phtunnel" "mingxiaoyu/luci-app-phtunnel" "main"
 UPDATE_PACKAGE "luci-app-phtunnel" "mingxiaoyu/luci-app-phtunnel" "main"
+UPDATE_PACKAGE "luci-app-filebrowser" "xiaozhuai/luci-app-filebrowser" "main"
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
