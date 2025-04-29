@@ -4,3 +4,5 @@ CONFIG_TARGET_qualcommax_ipq60xx=y
 #设备列表
 CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01=y
 
+CONFIG_PACKAGE_luci-app-syncdial=y
+CONFIG_PACKAGE_luci-app-sqm=y
